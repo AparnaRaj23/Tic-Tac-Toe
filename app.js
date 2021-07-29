@@ -114,6 +114,7 @@ const handleReset = function(e){
         cellDiv.classList.remove('x');
         cellDiv.classList.remove('o');
         cellDiv.classList.remove('won');
+        cellDiv.classList.remove('tie');
     }
     gameIsLive = true;
 };
